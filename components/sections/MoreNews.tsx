@@ -16,7 +16,7 @@ const news = [
 
 export default function MoreNews() {
   return (
-    <div className="w-[65%] mx-auto flex flex-col h-full justify-center">
+    <div className="md:w-[65%] w-[70%] mx-auto py-8 md:py-0 flex flex-col h-full justify-center">
       <Header title="more news" />
       <div className="h-px w-full mx-auto flex bg-gray-200 my-5"></div>
       <div className="w-full text-start">

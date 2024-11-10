@@ -56,7 +56,7 @@ const happeningNow = [
 
 export default function HappeningNow() {
   return (
-    <>
+    <div className="px-4 md:px-0">
       <Header title="happening now" />
       <div className="w-full md:flex gap-x-8">
         <div className="w-full md:w-[70%] h-full">
@@ -79,7 +79,7 @@ export default function HappeningNow() {
                       className="rounded-md w-full h-96"
                       style={{ objectFit: "cover" }}
                     />
-                    <div className="mt-2 p-6 absolute bottom-8 left-8">
+                    <div className="mt-2 p-6 absolute bottom-4 left-4 md:bottom-8 md:left-8">
                       <span className="text-xl font-semibold ">
                         {item.title}
                       </span>
@@ -160,6 +160,6 @@ export default function HappeningNow() {
             })}
         </div>
       </div>
-    </>
+    </div>
   );
 }

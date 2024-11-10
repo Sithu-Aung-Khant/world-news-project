@@ -51,7 +51,7 @@ const trending = [
 
 export default function Trending() {
   return (
-    <Carousel className="w-full">
+    <Carousel className="w-full px-4 md:px-0">
       <div className="flex relative justify-between items-center w-full">
         <h1 className="text-2xl uppercase font-medium font-sans">trending</h1>
         <div className="flex gap-x-5">

@@ -26,7 +26,7 @@ const EmailAndSocials = () => {
           Stay in touch with us for the freshest products!
         </Label>
       </div>
-      <div className="md:w-1/2 flex justify-center md:justify-end gap-x-4 pb-6 md:pb-0">
+      <div className="md:w-1/2 flex justify-center md:justify-end gap-x-4 py-6 md:pb-0">
         {/* Socials */}
 
         <FaInstagram className="text-gray-300 hover:text-white text-2xl hover:cursor-pointer" />
