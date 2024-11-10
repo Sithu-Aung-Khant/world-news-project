@@ -5,13 +5,21 @@ export default function Header({ title }: { title: string }) {
     <div className="flex justify-between items-center w-full">
       <h1 className="text-2xl uppercase font-medium font-sans">{title}</h1>
       <div className="flex gap-x-5">
-        <button type="button" aria-label="go previous">
+        <button
+          type="button"
+          aria-label="go previous"
+          className="hover:bg-textGray/10 hover:rounded-md"
+        >
           <ChevronLeft
             strokeWidth={1.5}
             className="text-gray-600 hover:text-gray-900"
           />
         </button>
-        <button type="button" aria-label="go next">
+        <button
+          type="button"
+          aria-label="go next"
+          className="hover:bg-textGray/10 hover:rounded-md"
+        >
           <ChevronRight
             strokeWidth={1.5}
             className="text-gray-600 hover:text-gray-900"

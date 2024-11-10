@@ -22,7 +22,10 @@ export default function MoreNews() {
       <div className="w-full text-start">
         {news.map((item, index) => {
           return (
-            <div key={index} className="pb-4">
+            <div
+              key={index}
+              className="pb-4 hover:bg-textGray/5 hover:cursor-pointer"
+            >
               <h2 className="text-lg uppercase font-medium font-sans my-2 text-pink-500">
                 {item.header}
               </h2>

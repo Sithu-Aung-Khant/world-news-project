@@ -14,10 +14,14 @@ export default function Navbar() {
     <nav className="flex text-sm justify-between p-4 font-sans sticky top-0 z-20 bg-slate-100 font-semibold tracking-wide">
       <div className="uppercase text-pink-500 mt-1">Logo</div>
       <div className="flex gap-x-5 items-center">
-        <div className="flex gap-x-5 text-gray-500">
+        <div className="gap-x-5 text-gray-500 hidden md:flex">
           {navLinks.map((link, index) => {
             return (
-              <Link key={index} href={link.to} className="uppercase">
+              <Link
+                key={index}
+                href={link.to}
+                className="uppercase hover:underline"
+              >
                 {link.name}
               </Link>
             );
@@ -27,7 +31,7 @@ export default function Navbar() {
           width={100}
           height={100}
           src={Profile}
-          className="rounded-full size-8"
+          className="rounded-full size-8 hover:cursor-pointer"
           alt="profile image"
         />
       </div>

@@ -29,7 +29,7 @@ export default function MainNews() {
           <button
             type="button"
             aria-label="learn more"
-            className="px-6 uppercase text-xs font-sans font-medium py-2 bg-pink-500/95 hover:bg-pink-600 rounded-lg my-3"
+            className="px-6 uppercase text-sm tracking-wider font-sans font-medium py-3 bg-pink-500/95 hover:bg-pink-600 rounded-lg mt-5"
           >
             learn more
           </button>

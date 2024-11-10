@@ -65,7 +65,10 @@ export default function HappeningNow() {
             .reverse()
             .map((item, index) => {
               return (
-                <Card key={index} className="hover:shadow-lg my-4 text-white">
+                <Card
+                  key={index}
+                  className="hover:shadow-lg my-4 text-white hover:scale-100"
+                >
                   <CardContent className="relative">
                     <Image
                       src={item.image}
