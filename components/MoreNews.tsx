@@ -1,5 +1,4 @@
-import { ChevronLeft, ChevronRight } from "lucide-react";
-
+import Header from "./Header";
 const news = [
   {
     header: "Travel",
@@ -18,23 +17,7 @@ const news = [
 export default function MoreNews() {
   return (
     <div className="w-[65%] mx-auto flex flex-col h-full justify-center">
-      <div className="flex justify-between items-center w-full">
-        <h1 className="text-2xl uppercase font-medium font-sans">More News</h1>
-        <div className="flex gap-x-5">
-          <button type="button" aria-label="go previous">
-            <ChevronLeft
-              strokeWidth={1.5}
-              className="text-gray-600 hover:text-gray-900"
-            />
-          </button>
-          <button type="button" aria-label="go next">
-            <ChevronRight
-              strokeWidth={1.5}
-              className="text-gray-600 hover:text-gray-900"
-            />
-          </button>
-        </div>
-      </div>
+      <Header title="more news" />
       <div className="h-px w-full mx-auto flex bg-gray-200 my-5"></div>
       <div className="w-full text-start">
         {news.map((item, index) => {
