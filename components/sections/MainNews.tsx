@@ -1,5 +1,5 @@
 import Image from "next/image";
-import BgImg from "@/public/2.jpg";
+import BgImg from "@/public/3.jpg";
 
 export default function MainNews() {
   return (

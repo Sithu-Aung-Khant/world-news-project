@@ -49,7 +49,7 @@ const trending = [
   },
 ];
 
-export default function NewsCarousel() {
+export default function Trending() {
   return (
     <Carousel className="w-full">
       <div className="flex relative justify-between items-center w-full">
@@ -67,8 +67,8 @@ export default function NewsCarousel() {
               className="pl-1 md:basis-1/2 lg:basis-1/3 mr-1"
             >
               <div className="pr-6 font-sans">
-                <Card>
-                  <CardContent className="hover:shadow-xl">
+                <Card className="hover:shadow-lg">
+                  <CardContent className="">
                     <Image
                       src={item.image}
                       width={200}
